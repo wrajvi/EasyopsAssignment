@@ -32,7 +32,6 @@ const Body = () => {
   function searchquery(){
            table.forEach( element => {
                  const fullname=element.first+" "+element.last;
-                 console.log(fullname,"RAJEEV");
                  if(fullname===query)
                  {
                      setShowResult(true);
@@ -48,7 +47,7 @@ const Body = () => {
     arr.sort((a, b) => {
       let fa = a.first.toLowerCase() + a.last.toLowerCase();
       let fb = b.first.toLowerCase() + b.last.toLowerCase();
-      console.log(fa, fb);
+      
 
       if (fa < fb) {
         return -1;

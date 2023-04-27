@@ -1,7 +1,7 @@
 import React from 'react'
 
 const ShowSearchResult = ({data,cross}) => {
-    console.log(data);
+    
     const {first,last,contact}=data;
    
   return (
